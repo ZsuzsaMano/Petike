@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prints",
+  "info": {
+    "singularName": "print",
+    "pluralName": "prints",
+    "displayName": "Prints",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Prints": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
